@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html>
+	<head> 
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	</head>
+	<style type="text/css">
+		html,body { 
+			margin: 0; width: 100%; height: 100%; 
+		} 
+		body { 
+			background: #ddd; 
+		} 
+		.wrapper { 
+			width: 100vw; height: 100vh; display: flex; justify-content: center; 
+		} 
+		.slider { 
+			width: 1000px; height: 100px; position: relative; background: white; box-shadow: 0 10px 20px -10px rgba(0,0,0,0.2); display: flex; overflow: hidden; 
+		} 
+		.slide { 
+			height: 100px; display: flex; align-items: center; animation: slideshow 8s linear infinite; 
+		} 
+		.slide img { 
+			height: 70px; padding: 0 30px 0 30px; 
+		} 
+		@keyframes slideshow {
+		 0% {transform: translateX(0);} 100% {transform: translateX(-100%);} 
+		} 
+		.slider::before, .slider::after {
+			height: 100px; width: 200px; position: absolute; content: ""; background: linear-gradient(to right, white 0%, rgba(255,255,255,0) 100%); z-index: 2; 
+		} 
+		.slider::before { left: 0; top: 0; }
+		.slider::after { right:0; top:0; transform: rotateZ(180deg); }
+	</style>
+	<body> 
+		<div class="wrapper"> 
+			<div class="slider"> 
+				<div class="slide"> 
+					<img src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/ic_launcher.png" />
+					<img src="https://1.bp.blogspot.com/-MNmrW3CO5a4/YEvowKVKcaI/AAAAAAAADEc/9OeOHhz4A9E_VqjZqar8Wt3adi_aafA5gCNcBGAsYHQ/w128-h128-p-k-no-nu/ic_launcher_iplay_rounded.png" /> 
+					<img src="https://1.bp.blogspot.com/-7vxTLfX4IAU/X3jiK-Zl7UI/AAAAAAAAC7I/RDadOO1km6wAnoSLvOzoFU707cN-LRRYgCNcBGAsYHQ/w128-h128-p-k-no-nu/ic_launcher_smarthome.png" /> 
+					<img src="https://1.bp.blogspot.com/-Rn6wPfVyyog/XrxSbDIXuvI/AAAAAAAAC1Y/DDTMiZJF7B45FGYyAHBRMrt8K6THjWGSACNcBGAsYHQ/w128-h128-p-k-no-nu/ic_launcher.png" /> 
+					<img src="https://1.bp.blogspot.com/-M93sQpCHoMU/XraYMy5M_0I/AAAAAAAAC0M/WFi0KfZ_22cTGvW6Lf_gThOsoOqlSGzogCNcBGAsYHQ/w128-h128-p-k-no-nu/ic_launcher.png" /> 
+				</div>
+				<div class="slide"> 
+					<img src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/ic_launcher.png" />
+					<img src="https://1.bp.blogspot.com/-MNmrW3CO5a4/YEvowKVKcaI/AAAAAAAADEc/9OeOHhz4A9E_VqjZqar8Wt3adi_aafA5gCNcBGAsYHQ/w128-h128-p-k-no-nu/ic_launcher_iplay_rounded.png" /> 
+					<img src="https://1.bp.blogspot.com/-7vxTLfX4IAU/X3jiK-Zl7UI/AAAAAAAAC7I/RDadOO1km6wAnoSLvOzoFU707cN-LRRYgCNcBGAsYHQ/w128-h128-p-k-no-nu/ic_launcher_smarthome.png" /> 
+					<img src="https://1.bp.blogspot.com/-Rn6wPfVyyog/XrxSbDIXuvI/AAAAAAAAC1Y/DDTMiZJF7B45FGYyAHBRMrt8K6THjWGSACNcBGAsYHQ/w128-h128-p-k-no-nu/ic_launcher.png" /> 
+					<img src="https://1.bp.blogspot.com/-M93sQpCHoMU/XraYMy5M_0I/AAAAAAAAC0M/WFi0KfZ_22cTGvW6Lf_gThOsoOqlSGzogCNcBGAsYHQ/w128-h128-p-k-no-nu/ic_launcher.png" />
+				</div> 
+			</div> 
+		</div> 
+	</body> 
+</html>
