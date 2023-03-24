@@ -9,6 +9,7 @@ fetch(url)
 .then(rep => {
   const data = JSON.parse(rep.substr(47).slice(0,-2));
   const container = document.createElement('div');
+  const container2 = document.createElement('div');
   data.table.rows.forEach((main)=>{
     lkjs.append(container);
     console.log(main.c[0]);
@@ -16,4 +17,6 @@ fetch(url)
     lkjs.innerHTML = badak;
   })
   console.log(data);
+  lkjs.innerHTML = data;
+  lkjs.append(container2);
 })
