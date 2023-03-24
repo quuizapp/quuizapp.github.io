@@ -11,8 +11,8 @@ fetch(url)
   const container = document.createElement('div');
   data.table.rows.forEach((main)=>{
     lkjs.append(container);
-    console.log(main[0]);
-    const badak = main[0];
+    console.log(main.c[0]);
+    const badak = main.c[0];
     lkjs.innerHTML = badak;
   })
   console.log(data);
