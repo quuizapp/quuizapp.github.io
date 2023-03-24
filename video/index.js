@@ -3,6 +3,7 @@ const query = encodeURIComponent('SELECT A,B,C,D');
 const lkjs = document.querySelector('.lkjs');
 console.log(query);
 url = url + '&tq=' + query;
+console.log(url);
 
 fetch(url)
 .then(res => res.text())
