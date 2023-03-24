@@ -3,7 +3,6 @@ const query = encodeURIComponent('SELECT A,B,C,D');
 const lkjs = document.querySelector('.lkjs');
 console.log(query);
 url = url + '&tq=' + query;
-console.log(url);
 
 fetch(url)
 .then(res => res.text())
@@ -14,7 +13,7 @@ fetch(url)
     lkjs.append(container);
     console.log(main.c[0]);
     const badak = main.c[0];
-    lkjs.innerHTML = badak;
+    lkjs.innerHTML = data.table;
   })
-  console.log(data.table.rows);
+  console.log(data.table);
 })
