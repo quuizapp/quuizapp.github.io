@@ -4,5 +4,13 @@ console.log(query);
 url = url + '&tq=' + query;
 
 fetch(url)
-.then((response)=>response.json())
-.then((json)=>console.log(json))
+.then(res => res.text())
+.then(rep => {
+  const data = JSON.parse(rep.substr(47).slice(0,-2));;
+  const container = document.createElement('pre');
+  bdsy.innerHTML = data;
+  const hag = res.text();
+  console.log(hag);
+  console.log(data.table.rows);
+  bdsy.append(container);
+})
