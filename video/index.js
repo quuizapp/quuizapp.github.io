@@ -8,7 +8,7 @@ url = url + '&tq=' + query;
 fetch(url)
 .then(res => res.text())
 .then(rep => {
-  const data = JSON.parse(rep.substr(47).slice(0,-2));
+  const data = JSON.parse(array());
   const container = document.createElement('pre');
   const mpks = data.table.rows;
   console.log(data.table.rows);
