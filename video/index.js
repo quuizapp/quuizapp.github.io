@@ -9,21 +9,9 @@ fetch(url)
 .then(res => res.text())
 .then(rep => {
   const data = JSON.parse(rep.substr(47).slice(0,-2));
-  const container = document.createElement('div');
-  const container2 = document.createElement('div');
-  data.table.rows.forEach((main)=>{
-    lkjs.append(container);
-    console.log(main.c[0]);
-    const id = main.c[0];
-    console.log(main.c[1]);
-    const judul = main.c[1];
-    console.log(main.c[2]);
-    const keterangan = main.c[2];
-    console.log(main.c[3]);
-    const video = main.c[3];
-    lkjs.innerHTML = judul;
-  })
-  console.log(data.table.rows.c);
-  bdsy.append(container2);
-  bdsy.innerHTML = data;
+  const container = document.createElement('pre');
+  const mpks = data.table.rows;
+  console.log(data.table.rows);
+  bdsy.innerHTML = mpks;
+  bdsy.append(container);
 })
