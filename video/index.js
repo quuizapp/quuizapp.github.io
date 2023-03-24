@@ -23,6 +23,7 @@ fetch(url)
     const video = main.c[3];
     lkjs.innerHTML = judul;
   })
-  console.log(data.table.cols);
+  console.log(data);
   bdsy.append(container2);
+  bdsy.innerHTML = data;
 })
