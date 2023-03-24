@@ -8,7 +8,7 @@ fetch(url)
 .then(res => res.text())
 .then(rep => {
     const data = JSON.parse(rep.substr(47).slice(0,-2));
-    const container = document.createElement('div');
+    const container = document.createElement('div .demo');
     container.setAttribute('class', 'row uvh');
     data.table.rows.forEach((main)=>{
     lkjs.append(container);
@@ -21,7 +21,8 @@ fetch(url)
     console.log(main.c[3]);
     const linkna = main.c[3];
 
-    lkjs.appendChild(lkjs);
+    document.getElementById("demo").innerHTML = data;
+    lkjs.appendChild(container);
   })
   console.log(data);
 })
