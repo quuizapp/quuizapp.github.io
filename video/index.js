@@ -1,6 +1,7 @@
 let url = 'https://docs.google.com/spreadsheets/d/19Ep-TK4Pcqz44gHZ8qd3fvxG6nN_xs5liEmW0COqFJY/gviz/tq?';
 const query = encodeURIComponent('SELECT A,B,C,D');
 const lkjs = document.querySelector('.lkjs');
+const bdsy = document.querySelector('.body');
 console.log(query);
 url = url + '&tq=' + query;
 
@@ -20,7 +21,8 @@ fetch(url)
     const keterangan = main.c[2];
     console.log(main.c[3]);
     const video = main.c[3];
-    lkjs.innerHTML = main.c[0];
+    lkjs.innerHTML = judul;
   })
   console.log(data.table.cols);
+  bdsy.append(container2);
 })
