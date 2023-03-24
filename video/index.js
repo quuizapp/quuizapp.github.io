@@ -13,7 +13,7 @@ fetch(url)
     lkjs.append(container);
     console.log(main.c[0]);
     const badak = main.c[0];
-    lkjs.innerHTML = data.table;
+    lkjs.innerHTML = badak;
   })
-  console.log(data.table[0]);
+  console.log(data);
 })
