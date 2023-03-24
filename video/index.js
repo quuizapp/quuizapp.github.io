@@ -5,13 +5,6 @@ console.log(query);
 url = url + '&tq=' + query;
 
 fetch(url)
-.then(res => res.text())
-.then(rep => {
-  const data = JSON.parse(rep.substr(47).slice(0,-2));;
-  const container = document.createElement('pre');
-  bdsy.innerHTML = data;
-  const hag = res.text();
-  console.log(hag);
-  console.log(data.table.rows);
-  bdsy.append(container);
+.then(res => {
+    console.log(res);
 })
