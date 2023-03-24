@@ -17,6 +17,6 @@ fetch(url)
     lkjs.innerHTML = badak;
   })
   console.log(data);
-  lkjs.innerHTML = data;
-  lkjs.append(container2);
+  container2.innerHTML = data;
+  container2.append(container);
 })
