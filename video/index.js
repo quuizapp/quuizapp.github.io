@@ -13,6 +13,13 @@ fetch(url)
   data.table.rows.forEach((main)=>{
     lkjs.append(container);
     console.log(main.c[0]);
+    const id = main.c[0];
+    console.log(main.c[1]);
+    const judul = main.c[1];
+    console.log(main.c[2]);
+    const keterangan = main.c[2];
+    console.log(main.c[3]);
+    const video = main.c[3];
     lkjs.innerHTML = main.c[0];
   })
   console.log(data);
