@@ -9,4 +9,4 @@ fetch(url)
     const data = JSON.parse(rep.substr(47).slice(0,-2));
   })
   console.log(data);
-})
+});
