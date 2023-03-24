@@ -8,10 +8,10 @@ url = url + '&tq=' + query;
 fetch(url)
 .then(res => res.text())
 .then(rep => {
-  const data = JSON.parse(array());
+  const data = JSON.parse(rep.substr(47).slice(0,-2));
   const container = document.createElement('pre');
-  const mpks = data.table.rows;
-  console.log(data.table.rows);
+  const mpks = data.table.rows.c;
+  console.log(data.table.rows.c);
   bdsy.innerHTML = mpks;
   bdsy.append(container);
 })
