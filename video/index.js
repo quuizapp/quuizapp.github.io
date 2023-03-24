@@ -9,5 +9,5 @@ fetch(url)
 .then(rep => {
   const data = JSON.parse(rep.substr(47).slice(0,-2));
   console.log(data);
-  document.getElementById("demo").innerHTML = data;
+  document.getElementById("body").innerHTML = data;
 })
