@@ -10,8 +10,8 @@ fetch(url)
 .then(rep => {
   const data = JSON.parse(rep.substr(47).slice(0,-2));
   const container = document.createElement('pre');
-  const mpks = data.table.rows.c;
-  console.log(data.table.rows.c);
+  const mpks = data.table.rows.main;
+  console.log(data.table.rows.main);
   bdsy.innerHTML = mpks;
   bdsy.append(container);
 })
