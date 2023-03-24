@@ -8,11 +8,10 @@ url = url + '&tq=' + query;
 fetch(url)
 .then(res => res.text())
 .then(rep => {
-  const data = array();
+  const data = JSON.parse(rep.substr(47).slice(0,-2));;
   const container = document.createElement('pre');
   const mpks = data.table.rows;
-  const buls = json_encode(array('video' => mpks));
-  bdsy.innerHTML = buls;
-  console.log(buls);
+  bdsy.innerHTML = data;
+  console.log(mpks);
   bdsy.append(container);
 })
