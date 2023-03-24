@@ -8,6 +8,10 @@ fetch(url)
 .then(res => res.text())
 .then(rep => {
   const data = JSON.parse(rep.substr(47).slice(0,-2));
+  data.table.rows.forEach((main)=>{
+    lkjs.append(container);
+    console.log(main[0]);
+    lkjs.innerHTML = data;
+  })
   console.log(data);
-  lkjs.innerHTML = data;
 })
