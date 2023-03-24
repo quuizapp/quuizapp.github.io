@@ -15,7 +15,5 @@ fetch(url)
     const badak = main.c[0];
     lkjs.innerHTML = badak;
   })
-  console.log(data);
-  lkjs.append(container);
-  lkjs.innerHTML = data.c[0];
+  console.log(data.table.rows);
 })
