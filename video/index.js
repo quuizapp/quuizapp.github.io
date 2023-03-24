@@ -8,6 +8,13 @@ fetch(url)
 .then(res => res.text())
 .then(rep => {
   const data = JSON.parse(rep.substr(47).slice(0,-2));
+  const container = document.createElement('div');
+  container.setAttribute('class', 'row uvh');
+  data.table.rows.forEach((main)=>{
+    lkjs.append(container);
+    const huah = document.createElement(body);
+    huah.innerHTML = data;
+  })
   console.log(data);
   document.getElementById("body").innerHTML = data;
 })
