@@ -3,6 +3,6 @@ const query = encodeURIComponent('SELECT A,B,C,D');
 console.log(query);
 url = url + '&tq=' + query;
 
-const myfek = fetch(url);
-const dataText = res.text();
-console.log(dataText);
+fetch(url)
+.then((response)=>response.json())
+.then((json)=>console.log(json))
