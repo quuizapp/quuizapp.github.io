@@ -22,5 +22,5 @@ fetch(url)
     const video = main.c[3];
     lkjs.innerHTML = main.c[0];
   })
-  console.log(data);
+  console.log(data.table.cols);
 })
