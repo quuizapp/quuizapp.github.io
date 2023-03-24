@@ -13,8 +13,7 @@ fetch(url)
   data.table.rows.forEach((main)=>{
     lkjs.append(container);
     console.log(main.c[0]);
-    const badak = main.c[0];
-    lkjs.innerHTML = badak;
+    lkjs.innerHTML = main.c[0];
   })
   console.log(data);
 })
