@@ -20,6 +20,10 @@ Version 1.0 - 1.1
 
 2. Sistem KoinQuu prefixed
 
+# Force Close for adding foto?
+
+1. [This Solution](https://quuizapp.github.io/video/solutionforcecloseaddpic.mp4)
+
 # META BUILD APPS
 > Firebase including for saving, show database like a user auth login user make Task Sign, implemented on android studio.
 > Android Studio as display and logic creation software for the Quuiz App application.
