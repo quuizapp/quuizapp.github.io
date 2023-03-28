@@ -13,7 +13,7 @@ Version 1.3
 1. Bug Fixed
 2. Optimized App
 
-[<img title="Quuiz App | Download APK" width="100px" src="assets/download_quuizapp.jpg" />](https://github.com/quuizapp/quuizapp.github.io/blob/main/download/apk/quuizapp.apk?raw=true)
+[<img title="Quuiz App | Download APK" width="100px" src="assets/download_quuizapp.png" />](https://github.com/quuizapp/quuizapp.github.io/blob/main/download/apk/quuizapp.apk?raw=true)
 
 Version 1.2
 
