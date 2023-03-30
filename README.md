@@ -50,8 +50,8 @@ Version 1.0 - 1.1
 
 # Tutorial
 Tetap bersamaku untuk belajar :
-- Kode (Constibute only!)
-- Video (Constibute only!)
+- Kode (Hanya Kontributor!)
+- Video (Hanya Kontributor!)
 
 ## Les Privat :
 Bertemu langsung atau via online :
