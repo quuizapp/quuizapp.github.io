@@ -1,3 +1,6 @@
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 # Quuiz App
 Belajar tidak mengenal batas usia, mari kita belajar bersama dalam satu aplikasi. Cara belajar yang mudah dan cerdas tidak perlu mengeluarkan banyak biaya. Kami akan menyediakan ruang belajar beserta kuis yang menentukan hasil belajar Anda.
 
