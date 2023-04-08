@@ -13,9 +13,9 @@ Belajar tidak mengenal batas usia, mari kita belajar bersama dalam satu aplikasi
 # Rilis Aplikasi
 Version 5.3
 
-1. Bug fixed
+1. Perbaikan biometrik
 
-2. Penambahan soal (Level 1-2)
+2. Penambahan Animasi
 
 [<img title="Quuiz App | Download APK" width="200px" src="assets/download_quuizapp.png" />](https://github.com/quuizapp/quuizapp.github.io/blob/main/download/apk/quuizapp.apk?raw=true)
 
@@ -32,6 +32,8 @@ Version 1.0 - 5.2
 5. Demo Quuiz
 
 6. Aktifitas baru (Tidak perlu masuk)
+
+7. Penambahan soal demo (Level 1-2)
 
 # Keluar saat memilih foto?
 
