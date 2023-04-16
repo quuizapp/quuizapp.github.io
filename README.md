@@ -21,7 +21,7 @@ Version 5.8
 
 [<img title="Quuiz App | Download APK" width="200px" src="assets/download_quuizapp.png" />](https://github.com/quuizapp/quuizapp.github.io/blob/main/download/apk/quuizapp.apk?raw=true)
 
-Version 1.0 - 5.6
+Version 1.0 - 5.7
 
 1. Build Minimalis UI/UX
 
