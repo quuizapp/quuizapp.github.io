@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="in">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="Quuiz App adalah aplikasi yang dibuat khusus untuk handphone pintar dengan operasi sistem android, ini sangat membantu belajar anda dimana saja dengan mudah, pintar &amp; semua usia. Selain itu Quuiz App merupakan projek solo dev yang dibuat oleh CusMeDroid.">
+        <meta name='keywords' content='quuizapp, Quuiz App, QuuizApp, quuiz-app, Quuiz-App, quuizapp.apk, free download quuiz app, quuiz app android, cusmedroid, quuizapp cusmedroid'/>
+        <meta name="author" content="Quuiz App">
+        <link rel="icon" type="image/x-icon" href="https://quuizapp.github.io/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="https://quuizapp.github.io/css/bss.min.css">
+        <link rel="stylesheet" type="text/css" href="https://quuizapp.github.io/font/css/font-awesome.min.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="https://quuizapp.github.io/bss.js"></script>
+        <title>Level 1 | Quuiz App</title>
+        <style>
+            body {background: #fafafa;}
+            .content { margin-top:54px;}
+            .header {padding:15px; position:fixed; top:0; width:100%; z-index:1; background: #9C27B0;}
+            .left-title { width:auto; color:#FFF; font-size:18px; float:left; }
+            .right-title { width:auto; text-align:right; float:right; color:#FFF;  }
+            .quiz-body { margin-top:15px; padding-bottom:50px; }
+            .option-block-container { margin-top:20px; max-width:420px; }
+            .option-block { padding:10px; background:#fff; border:0; border-radius: 20px; margin-bottom:10px; cursor:pointer; }
+            .result-question { font-weight:bold; }
+            .c-wrong { margin-left:20px; color:#FF0000; }
+            .c-correct {  margin-left:20px; color:green; }
+            .last-row { border-bottom:1px solid #ccc; padding-bottom:25px; margin-bottom:25px; }
+            .res-header { border-bottom:1px solid #ccc; margin-bottom:15px; padding-bottom:15px; }
+            .my-quest {background: #fff; border-radius: 20px; border: 1px solid #9C27B0; padding: 20px; max-width:420px;-webkit-user-modify: read-write-plaintext-only;text-align: center;}
+            .btn-quuizapp {color: #fff;background-color: #9C27B0;border-color: #9C27B0;}
+            .btn-quuizapp:hover {color: #fff;background-color: #A460AF;border-color: #A460AF;}
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-title">Sekolah</div>
+            <div class="right-title">Total Pertanyaan : <span id="tque"></span></div>
+            <div class="clearfix"></div>
+        </header>
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="result" class="quiz-body">
+                            <form name="quizForm" onSubmit="">
+                                <fieldset class="form-group">
+                                    <h4 class="my-quest"><!--<span id="qid">1.</span>--> <span id="question"></span></h4>
+                                    <div class="option-block-container" id="question-options"></div>
+                                </fieldset>
+                                <!--
+                                <button  name="previous" id="previous" class="btn btn-quuizapp">Previous</button>
+                                &nbsp; -->
+                                <button  name="next" id="next" class="btn btn-quuizapp">Next</button>
+                           </form>
+                       </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+
+            var quiz = { "JS" : [
+                {
+                    "id" : 1,
+                    "question" : "SMP\nB.IndonesiaBacalah kalimat berikut!\n \"Selamat, Apa pun teks yang kamu susun adalah hasil karya sendiri..\"\nPerbaikan penggunaan tanda baca pada kalimat tersebut adalah...",
+                    "options" : [
+                        {"a": "Selamat! Apa pun teks yang kamu susun adalah hasil karya sendiri!", 
+                         "b":"Selamat, Apa pun teks yangkamu susun adalah hasil karya sendiri!", 
+                         "c":"Selamat! Apa pun teks yang kamu susun adalah hasil karya sendiri."}
+                        ],
+                    "answer":"Selamat! Apa pun teks yang kamu susun adalah hasil karya sendiri.",
+                    "score":0,
+                    "status": ""
+                },
+                {
+                    "id" : 2,
+                    "question" : "SMP\nB.Indonesia\nBacalah kalimat berikut!\n \"Gelombang di daerah Pantai Kuta pulau Bali sangat tingg.\"\nKesalahan penulisan huruf pada kalimat tersebut terdapat pada kata...",
+                    "options" : [
+                        {"a": "Pulau", 
+                         "b": "Pantai", 
+                         "c": "Daerah"}
+                        ],
+                    "answer":"Pulau",
+                    "score":0,
+                    "status": ""
+                },
+                {
+                    "id" : 3,
+                    "question" : "SMP\nMTK\nApabila HUT Kemerdekaan RI pada tanggal 17 Agustus jatuh di hari Senin, Hari pendidikan Nasional tanggal 2 Mei pada tahun yang sama adalah...",
+                    "options" : [
+                        {"a": "hari Senin", 
+                         "b": "hari Kamis", 
+                         "c": "hari Sabtu"}
+                        ],
+                    "answer":"hari Sabtu",
+                    "score":0,
+                    "status": ""
+                },
+                {
+                    "id" : 4,
+                    "question" : "SMP\nMTK\nBentuk sederhana dari 4x+12y−10z−8x+5y−7z adalah...",
+                    "options" : [
+                        {"a": "8x+10z+12y", 
+                         "b": "−4x+17y−17z",
+                         "c": "−12x+12y−3z"}
+                        ],
+                    "answer":"−4x+17y−17z",
+                    "score":0,
+                    "status": ""
+                },
+                {
+                    "id" : 5,
+                    "question" : "SMP\nMTK\nPanjang busur lingkaran dengan sudut pusat 72∘ dan panjang jari-jari 10 cm adalah...",
+                    "options" : [
+                        {"a": "10,36 cm", 
+                         "b": "11,46 cm",
+                         "c":"12,56 cm"}
+                        ],
+                    "answer":"12,56 cm",
+                    "score":0,
+                    "status": ""
+                },
+                {
+                    "id" : 6,
+                    "question" : "SMP\nSejarah\nSejarah  sebagai sebuah konsep dinilai sebagai ilmu pengetahuan karena bersifat empiris, yang berarti...",
+                    "options" : [
+                        {"a": "Memiliki sasaran dan obyek manusia dalam sudut pandang waktu", 
+                         "b": "Disusun berdasarkan pengalaman atau peninggalan",
+                         "c": "Sejarahwan menyatukan diri dengan obyek yang ditelitinya"}
+                        ],
+                    "answer":"Memiliki sasaran dan obyek manusia dalam sudut pandang waktu",
+                    "score":0,
+                    "status": ""
+                },
+                {
+                    "id" : 7,
+                    "question" : "SMP\nSejarah\nKapak corong merupakan hasil – hasil kebudayaan peninggalan manusia pra-aksara pada masa...",
+                    "options" : [
+                        {"a": "Perundagian", 
+                         "b": "Beternak dan bercocok tanam",
+                         "c": "Megalitikum"}
+                        ],
+                    "answer":"Perundagian",
+                    "score":0,
+                    "status": ""
+                },
+                {
+                    "id" : 8,
+                    "question" : "SMP\nSejarah\nBerdasarkan Teori Brahmana, perluasan budaya India dilakukan dengan cara...",
+                    "options" : [
+                        {"a": "Perkawinan antara golongan Brahmana dan orang Indonesia", 
+                         "b":"Kolonisasi oleh orang – orang India di Indonesia",
+                         "c":"Mengundang golongan Brahmana untuk melegitimasi penguasa"}
+                        ],
+                    "answer":"Kolonisasi oleh orang – orang India di Indonesia",
+                    "score":0,
+                    "status": ""
+                },
+                {
+                    "id" : 9,
+                    "question" : "SMP\nBiologi\nDalam pengamatan sel bawang merah sering diberi larutan biru metilen. Tujuan penambahan biru metilen tersebut adalah...",
+                    "options" : [
+                        {"a": "Mengetahui letak membrane sel", 
+                         "b": "Mengamati inti sel",
+                         "c": "Memperjelas dinding sel"}
+                        ],
+                    "answer":"Mengamati inti sel",
+                    "score":0,
+                    "status": ""
+                },
+                {
+                    "id" : 10,
+                    "question" : "SMP\nBiologi\nPerkembangan belalang mulai dari telur sampai menjadi belalang dewasa mengalami metamorfosis tidak sempurna, karena...",
+                    "options" : [
+                        {"a": "Perkembangan belalang berada di padang rumput", 
+                         "b": "Perkembangan belalang melewati masa kepompong",
+                         "c": "Pertumbuhan belalang tidak melalui masa kepompong"}
+                        ],
+                    "answer":"Pertumbuhan belalang tidak melalui masa kepompong",
+                    "score":0,
+                    "status": ""
+                }
+                ]
+            }
+
+            var quizApp = function() {
+
+                this.score = 0;     
+                this.qno = 1;
+                this.currentque = 0;
+                var totalque = quiz.JS.length;
+
+                
+                this.displayQuiz = function(cque) {
+                    this.currentque = cque;
+                    if(this.currentque <  totalque) {
+                        $("#tque").html(totalque);
+                        $("#previous").attr("disabled", false);
+                        $("#next").attr("disabled", false);
+                        $("#qid").html(quiz.JS[this.currentque].id + '.');
+                
+                        
+                        $("#question").html(quiz.JS[this.currentque].question); 
+                         $("#question-options").html("");
+                        for (var key in quiz.JS[this.currentque].options[0]) {
+                          if (quiz.JS[this.currentque].options[0].hasOwnProperty(key)) {
+                    
+                            $("#question-options").append(
+                                "<div class='form-check option-block'>" +
+                                "<label class='form-check-label'>" +
+                                          "<input type='radio' class='form-check-input' name='option'   id='q"+key+"' value='" + quiz.JS[this.currentque].options[0][key] + "'><span id='optionval'>" +
+                                              quiz.JS[this.currentque].options[0][key] +
+                                         "</span></label>"
+                            );
+                          }
+                        }
+                    }
+                    if(this.currentque <= 0) {
+                        $("#previous").attr("disabled", true);  
+                    }
+                    if(this.currentque >= totalque) {
+                            $('#next').attr('disabled', true);
+                            for(var i = 0; i < totalque; i++) {
+                                this.score = this.score + quiz.JS[i].score;
+                            }
+                        return this.showResult(this.score); 
+                    }
+                }
+                
+                this.showResult = function(scr) {
+                    $("#result").addClass('result');
+                    $("#result").html("<h1 class='res-header'>Total Nilai : &nbsp;" + scr  + '/' + totalque + "</h1>");
+                    for(var j = 0; j < totalque; j++) {
+                        var res;
+                        if(quiz.JS[j].score == 0) {
+                                res = '<span class="wrong">' + quiz.JS[j].score + '</span><i class="fa fa-remove c-wrong"></i>';
+                        } else {
+                            res = '<span class="correct">' + quiz.JS[j].score + '</span><i class="fa fa-check c-correct"></i>';
+                        }
+                        $("#result").append(
+                        '<div class="result-question"><span>Q ' + quiz.JS[j].id + '</span> &nbsp;' + quiz.JS[j].question + '</div>' +
+                        '<div><b>Jawaban Benar :</b> &nbsp;' + quiz.JS[j].answer + '</div>' +
+                        '<div class="last-row"><b>Nilai :</b> &nbsp;' + res +
+                        
+                        '</div>' 
+                        
+                        );
+                    }
+                }
+                
+                this.checkAnswer = function(option) {
+                    var answer = quiz.JS[this.currentque].answer;
+                    option = option.replace(/\</g,"&lt;")   //for <
+                    option = option.replace(/\>/g,"&gt;")   //for >
+                    option = option.replace(/"/g, "&quot;")
+
+                    if(option ==  quiz.JS[this.currentque].answer) {
+                        if(quiz.JS[this.currentque].score == "") {
+                            quiz.JS[this.currentque].score = 1;
+                            quiz.JS[this.currentque].status = "correct";
+                        }
+                    } else {
+                        quiz.JS[this.currentque].status = "wrong";
+                    }
+                    
+                }   
+                 
+                this.changeQuestion = function(cque) {
+                    this.currentque = this.currentque + cque;
+                    this.displayQuiz(this.currentque);
+                }
+                
+            }
+
+            var jsq = new quizApp();
+
+            var selectedopt;
+            $(document).ready(function() {
+                jsq.displayQuiz(0);     
+                $('#question-options').on('change', 'input[type=radio][name=option]', function(e) {
+                    //var radio = $(this).find('input:radio');
+                    $(this).prop("checked", true);
+                    selectedopt = $(this).val();
+                });
+                     
+            });
+            
+            $('#next').click(function(e) {
+                    e.preventDefault();
+                    if(selectedopt) {
+                        jsq.checkAnswer(selectedopt);
+                    }
+                    jsq.changeQuestion(1);
+            }); 
+            
+            $('#previous').click(function(e) {
+                e.preventDefault();
+                if(selectedopt) {
+                    jsq.checkAnswer(selectedopt);
+                }
+                    jsq.changeQuestion(-1);
+            }); 
+        </script>
+    </body>
+</html>
