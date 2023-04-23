@@ -11,13 +11,15 @@ Belajar tidak mengenal batas usia, mari kita belajar bersama dalam satu aplikasi
 [<img title="Quuiz App | Splash Screen" width="100px" src="assets/screenshoot/QuuizApp_001_Splash.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Login" width="100px" src="assets/screenshoot/QuuizApp_002_Login.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Demo Help" width="100px" src="assets/screenshoot/QuuizApp_d_001.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Demo Play Quuiz" width="100px" src="assets/screenshoot/QuuizApp_d_002.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Demo Quest Answer Quuiz" width="100px" src="assets/screenshoot/QuuizApp_d_003.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Demo Score" width="100px" src="assets/screenshoot/QuuizApp_d_004.jpg" />](https://quuizapp.github.io)  [<img title="Quuiz App | Register" width="100px" src="assets/screenshoot/QuuizApp_003_Regis.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Forgot Password" width="100px" src="assets/screenshoot/QuuizApp_004_Forgotpass.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Welcome" width="100px" src="assets/screenshoot/QuuizApp_005_Welcome.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Home" width="100px" src="assets/screenshoot/QuuizApp_006_Home.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Video View" width="100px" src="assets/screenshoot/QuuizApp_007_VideoView.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Spin Wheel" width="100px" src="assets/screenshoot/QuuizApp_008_SpinWheel.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Spin Wheel Reward" width="100px" src="assets/screenshoot/QuuizApp_009_SpinWheelReward.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Quuiz View" width="100px" src="assets/screenshoot/QuuizApp_010_QuuizView.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Quuiz Play Button" width="100px" src="assets/screenshoot/QuuizApp_011_QuuizViewBtnPlay.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Quuiz Splash" width="100px" src="assets/screenshoot/QuuizApp_012_QuuizSplash.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Quuiz Main" width="100px" src="assets/screenshoot/QuuizApp_013_QuuizMain.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Quuiz Correct" width="100px" src="assets/screenshoot/QuuizApp_014_QuuizCorrect.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Quuiz Wrong" width="100px" src="assets/screenshoot/QuuizApp_015_QuuizWrong.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Quuiz Score" width="100px" src="assets/screenshoot/QuuizApp_016_QuuizScore.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Quuiz Notif" width="100px" src="assets/screenshoot/QuuizApp_017_QuuizNotif.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Quuiz KoinQuu" width="100px" src="assets/screenshoot/QuuizApp_018_KoinQuu.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Quuiz KoinQuu Reward" width="100px" src="assets/screenshoot/QuuizApp_019_KoinQuuReward.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | History" width="100px" src="assets/screenshoot/QuuizApp_020_History.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Help" width="100px" src="assets/screenshoot/QuuizApp_021_Help.jpg" />](https://quuizapp.github.io) [<img title="Quuiz App | Privacy Policy" width="100px" src="assets/screenshoot/QuuizApp_022_PrivacyPolicy.jpg" />](https://quuizapp.github.io)
 
 # Rilis Aplikasi
-Version 6.1
+Version 6.2
 
 1. Prefixed bug
 
+2. Penambahan soal demo (Level 1-3)
+
 [<img title="Quuiz App | Download APK" width="200px" src="assets/download_quuizapp.png" />](https://github.com/quuizapp/quuizapp.github.io/blob/main/download/apk/quuizapp.apk?raw=true)
 
-Version 1.0 - 6.0
+Version 1.0 - 6.1
 
 1. Build Minimalis UI/UX
 
@@ -33,25 +35,23 @@ Version 1.0 - 6.0
 
 7. Perbaikan biometrik
 
-8. Penambahan soal demo (Level 1-2)
+8. Penambahan Animasi
 
-9. Penambahan Animasi
+9. Navigasi pada main demo Quuiz
 
-10. Navigasi pada main demo Quuiz
+10. Navigasi pada fitur pengguna
 
-11. Navigasi pada fitur pengguna
+11. Tukarkan KoinQuu menjadi Rupiah (beta/startup)
 
-12. Tukarkan KoinQuu menjadi Rupiah (beta/startup)
+12. Pesan untuk publik komunitas
 
-13. Pesan untuk publik komunitas
+13. Perbaikan sistem HIT
 
-14. Perbaikan sistem HIT
+14. Klaim HIT di nilai yang 100
 
-15. Klaim HIT di nilai yang 100
+15. Penambahan aktivitas pencarian soal
 
-16. Penambahan aktivitas pencarian soal
-
-17. Perubahan bahasa inggris (default) and indonesia
+16. Perubahan bahasa inggris (default) and indonesia
 
 # Keluar saat memilih foto?
 
