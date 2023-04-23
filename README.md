@@ -64,11 +64,40 @@ Version 1.0 - 6.0
 
 > Android Studio sebagai perangkat lunak pembuatan tampilan dan logika untuk aplikasi Quuiz App.
 
+# Pembuatan Tentang Quuiz
+> Pada demo tidak terdapat kisi-kisi dalam menjawab persoalan.
+
+> Quuiz App menampilkan kisi-kisi untuk setiap pertanyaan yang di jawab pengguna (Harus Masuk).
+
+> Mensortir pertanyaan agar dapat memudahkan pengguna saat memainkan Quuiz App.
+
+# Pembuatan Tentang KoinQuu
+> KoinQuu merupakan koin digital pada aplikasi Quuiz App dan bersifat ilusi asset.
+
+> KoinQuu tidak diperjual belikan kepada pengguna Quuiz App didalam aplikasi, maupun diluar dari aplikasi Quuiz App. Kami melarang anda membeli KoinQuu dengan nilai tukar mata uang negara anda. Berhati hatilah, Waspada! dengan oknum yang mengatasnamakan Quuiz App dengan tawaran apapun yang dapat merugikan anda!
+
+> KoinQuu benar sebagai ilusi asset tukar ke IDR untuk permintaan dari pengguna, ini merupakan hadiah untuk para pengguna aplikasi Quuiz App. Garis bawahi kami memberikan reward ini agar anda tertarik dan meningkatkan niat belajar anda.
+
+# Pembuatan Tentang Gulir Video
+> Video yang ditampilkan merupakan guide aplikasi dan pembahasan tentang Quuiz yang ada (dalam progres).
+
+# Pembuatan Tentang Pesan Untuk Komunitas
+> Kami mempersilahkan anda berkomunikasi langsung melalui pesan pada aplikasi di Quuiz App untuk menghindari miskomunikasi.
+
+# Pembuatan Tentang Penampilan Iklan
+> Iklan yang terdapat pada aplikasi merupakan perputaran hasil untuk reward yang dibagikan kepada pengguna aktif di aplikasi Quuiz App, Jika anda mengeluh iklan terlalu banyak. Kami tidak akan merespon anda! karena yang dihasilkan pada aplikasi Quuiz App akan diputar untuk pengguna diaplikai Quuiz App!
+
+# Pembuatan Tentang Grafik Target HIT
+> Pencapaian minimal Target HIT diperhitungkan dan dikonversikan kembali guna ketepatan analis pemasukan dan pengeluaran dari penghasilan pada aplikasi Quuiz App, Semua akan berubah drastis tanpa tahu penyebabnya. Kami berharap ini akan berjalan normal tanpa adanya kehilangan dari yang dihasilkan pada pihak ketiga yang dapat merubah secara drastis.
+
+# Perubahan Kebijakan
+> Kami mengklaim perubahan kebijakan pada Aplikasi Quuiz App guna perkembangan kedepan dan memperbaharui kebijakan lama menjadi kebijakan yang terbaru.
+
 ## Pengembang
 [<img alt="CusMeDroid" title="CusMeDroid" width="72px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/dev_img.png" />](https://cusmedroid.ink)
 
 # Perangkat lunak yang digunakan
-[<img alt="Android Studio" title="View make apps on Android Studio" width="120px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/tools/AndroidStudio.jpg" />](https://github.com/absenonline/android-studio/blob/main/README.md) [<img alt="Firebase" title="View make apps firebase console" width="120px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/tools/Firebase.jpg" />](https://firebase.google.com)
+[<img alt="Android Studio" title="View make apps on Android Studio" width="120px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/tools/AndroidStudio.jpg" />](https://developer.android.com) [<img alt="Firebase" title="View make apps firebase console" width="120px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/tools/Firebase.jpg" />](https://firebase.google.com)
 
 # Bahasa Program
 [<img alt="XML" width="72px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/language/xml.png" />](https://www.w3schools.com/xml/default.asp) [<img alt="JAVA" width="72px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/language/java.png" />](https://www.java.com/en/)
