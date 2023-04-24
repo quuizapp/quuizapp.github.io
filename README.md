@@ -59,6 +59,10 @@ Version 1.0 - 6.1
 
 2. Jika gambar tidak muncul coba (tutup dan hapus recent aplikasi) tidak perlu diisi dengan gambar anda. (*This Issue Choose Pic*).
 
+# Versi Anak Ex.1.1 (_Beta_)
+
+> Untuk versi anak seperti contoh 1.1 merupakan versi beta, jika pembaharuaan gagal anda harus uninstal aplikasi. Versi anak merupakan versi beta yang digunakan untuk uji perbaikan/penambahan pada aplikasi Quuiz App secara kelompok, misal pembaharuan ini untuk versi selanjutnya 2.0 rilis diplaystore.
+
 # META PEMBANGUNAN APLIKASI
 > Firebase untuk menyimpan, menampilkan, menghapus database, seperti pengguna masuk dengan (auth), diimplementasikan di android studio.
 
