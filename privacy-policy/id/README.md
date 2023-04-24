@@ -20,7 +20,6 @@ Quuiz App mengikuti prosedur standar menggunakan file log. File-file ini mencata
 ## Mitra Iklan Kami
 Beberapa pengiklan di situs kami mungkin menggunakan cookies dan web beacon. Mitra periklanan kami tercantum di bawah ini. Setiap mitra periklanan kami memiliki Kebijakan Privasi sendiri untuk kebijakan mereka tentang data pengguna. Untuk akses yang lebih mudah, kami menautkan ke Kebijakan Privasi mereka di bawah ini.
 > 1. Iklan Google
-> 2. Iklan Adfly
 
 ## Kebijakan Privasi Mitra Periklanan
 Anda dapat berkonsultasi daftar ini untuk menemukan Kebijakan Privasi untuk masing-masing mitra periklanan Quuiz App. Server iklan atau jaringan iklan pihak ketiga menggunakan teknologi seperti cookie, JavaScript, atau Web Beacon yang digunakan dalam iklan masing-masing dan tautan yang muncul di Quuiz App, yang dikirim langsung ke browser pengguna. Mereka secara otomatis menerima alamat IP Anda saat ini terjadi. Teknologi ini digunakan untuk mengukur keefektifan kampanye iklan mereka dan/atau untuk mempersonalisasi konten iklan yang anda lihat di situs web yang anda kunjungi. Perhatikan bahwa Quuiz App tidak memiliki akses atau kontrol terhadap cookie yang digunakan oleh pengiklan pihak ketiga ini.
