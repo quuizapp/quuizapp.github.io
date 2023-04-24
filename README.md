@@ -51,7 +51,7 @@ Version 1.0 - 6.1
 
 15. Penambahan aktivitas pencarian soal
 
-16. Perubahan bahasa inggris (default) and indonesia
+16. Perubahan bahasa inggris (default) dan indonesia
 
 # Keluar saat memilih foto?
 
