@@ -15,11 +15,9 @@ Version 6.2
 
 1. Prefixed bug
 
-2. Penambahan soal demo (Level 1-3)
-
 [<img title="Quuiz App | Download APK" width="200px" src="assets/download_quuizapp.png" />](https://github.com/quuizapp/quuizapp.github.io/blob/main/download/apk/quuizapp.apk?raw=true)
 
-Version 1.0 - 6.1
+Version 1.0 - 6.9
 
 1. Build Minimalis UI/UX
 
@@ -52,6 +50,8 @@ Version 1.0 - 6.1
 15. Penambahan aktivitas pencarian soal
 
 16. Perubahan bahasa inggris (default) dan indonesia
+
+17. Penambahan soal demo (Level 1-3)
 
 # Keluar saat memilih foto?
 
