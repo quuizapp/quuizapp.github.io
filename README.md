@@ -12,10 +12,11 @@ Belajar tidak mengenal batas usia, mari kita belajar bersama dalam satu aplikasi
 
 # Rilis Aplikasi
 Version 17
+> Dibawah ini merupakan aplikasi khusus RAM 1/2gb, jika dirasa aplikasi Quuiz App yang sudah dipasang dari playstore lag (patah-patah) anda dapat memasang ulang dengan paket aplikasi yang ini.
 
 1. Prefixed minor
 
-[<img title="Quuiz App | Download APK" width="200px" src="assets/download_quuizapp.png" />](https://github.com/quuizapp/quuizapp.github.io/blob/main/download/apk/quuizapp.apk?raw=true)
+[<img title="Quuiz App | Download APK" width="200px" src="assets/download_quuizapp.png" />](https://github.com/quuizapp/quuizapp.github.io/blob/main/download/apk/quuizapp_low.apk?raw=true)
 
 Version 1.0 - 16
 
