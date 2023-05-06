@@ -12,7 +12,7 @@ Belajar tidak mengenal batas usia, mari kita belajar bersama dalam satu aplikasi
 
 # Rilis Aplikasi
 Version 17
-> Dibawah ini merupakan aplikasi khusus RAM 1/2gb, jika dirasa aplikasi Quuiz App yang sudah dipasang dari playstore lag (patah-patah) anda dapat memasang ulang dengan paket aplikasi yang ini.
+> Dibawah ini merupakan paket aplikasi khusus RAM 1/2gb, jika dirasa aplikasi Quuiz App yang sudah dipasang dari playstore lag (patah-patah) anda dapat memasang ulang dengan paket aplikasi yang ini.
 
 1. Prefixed minor
 
