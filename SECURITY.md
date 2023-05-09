@@ -16,4 +16,4 @@ Below is the SDK that we use to support running applications.
 
 If you feel there is a mistake in your account or other constraints from the Quuiz App application [Contact Us](mailto:quuizapp@gmail.com)
 
-We use the API as security to view or create data that is stored in real time, apart from that in the manifest we have made prevention of several applications that can be dangerous, such as detecting whether the device is rooted or not, and several applications running in root mode or not.
+We use the API as security to view or create data that is stored in real time, apart from that in the manifest we have made prevention of several applications that can be danger, such as detecting whether the device is rooted or not, and several applications running in root mode or not.
