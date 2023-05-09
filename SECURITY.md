@@ -5,18 +5,15 @@ Data will be stored as your Account ID, about how we welcome and recognize new u
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Below is the SDK that we use to support running applications.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| > 4.0   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version    | Supported          |
+| ---------- | ------------------ |
+| > SDK 19   | :white_check_mark: |
+| < SDK 19   | :x:                |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Contact us if you feel there is a mistake in your account [Contact Us](mailto:quuizapp@gmail.com)
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+We use the API as security to view or create data that is stored in real time, apart from that in the manifest we have made prevention of several applications that can be dangerous, such as detecting whether the device is rooted or not, and several applications running in root mode or not.
