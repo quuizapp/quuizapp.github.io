@@ -101,7 +101,7 @@ Version 1.0 - 16
 > Kami mengklaim perubahan kebijakan pada Aplikasi Quuiz App guna perkembangan kedepan dan memperbaharui kebijakan lama menjadi kebijakan yang terbaru.
 
 ## Pengembang
-[<img alt="CusMeDroid" title="CusMeDroid" width="72px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/dev_img.png" />](https://cusmedroid.ink)
+[<img alt="CusMeDroid" title="CusMeDroid" width="72px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/dev_img.png" />](https://cusmedroid.ink) [<img alt="Xiefujev" title="Xiefujev" width="72px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/dev_xiefyjev.png" />](https://github.com/xiefujev)
 
 # Perangkat lunak yang digunakan
 [<img alt="Android Studio" title="View make apps on Android Studio" width="120px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/tools/AndroidStudio.jpg" />](https://developer.android.com) [<img alt="Firebase" title="View make apps firebase console" width="120px" src="https://raw.githubusercontent.com/absenonline/absenonline.github.io/main/assets/tools/Firebase.jpg" />](https://firebase.google.com)
